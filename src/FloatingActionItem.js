@@ -299,7 +299,8 @@ const styles = StyleSheet.create({
   button: {
     alignItems: "center",
     justifyContent: "center",
-    elevation: 5
+    elevation: 5,
+    // marginBottom:50
   },
   iconLogo: {
     resizeMode: "cover",

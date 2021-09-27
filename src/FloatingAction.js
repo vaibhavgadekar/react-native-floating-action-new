@@ -641,8 +641,9 @@ FloatingAction.defaultProps = {
 const styles = StyleSheet.create({
   actions: {
     position: "absolute",
-    bottom: 85,
-    zIndex: 10
+    bottom: 185,
+    zIndex: 10,
+    marginBottom:60
   },
   rightActions: {
     alignItems: "flex-end",
@@ -671,7 +672,8 @@ const styles = StyleSheet.create({
     right: 0,
     top: 0,
     elevation: 0,
-    zIndex: 0
+    zIndex: 0,
+  //  marginBottom:60
   },
   buttonContainer: {
     overflow: Platform.OS === "ios" ? "visible" : "hidden",
@@ -679,12 +681,15 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     elevation: 5,
-    position: "absolute"
+    position: "absolute",
+   marginBottom:60,
+   marginRight:5
+   
   },
   button: {
     zIndex: 3,
     alignItems: "center",
-    justifyContent: "center"
+    justifyContent: "center",
   },
   rightButton: {},
   leftButton: {},
@@ -694,7 +699,7 @@ const styles = StyleSheet.create({
   buttonTextContainer: {
     flex: 1,
     justifyContent: "center",
-    alignItems: "center"
+    alignItems: "center",
   }
 });
 

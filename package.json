@@ -1,6 +1,6 @@
 {
   "_from": "react-native-floating-action-new",
-  "_id": "react-native-floating-action-new@1.0.4",
+  "_id": "react-native-floating-action-new@1.0.5",
   "_inBundle": false,
   "_integrity": "sha512-lUiSC5K415wcyZS3G8lBkdTtqTwUY3Fryn8pFdRC4iGmS/X1M6uFsPNpPBlsGtMvEqb1oWWgVVB7MPkI+RSJcA==",
   "_location": "/react-native-floating-action-new",
@@ -73,5 +73,5 @@
   "scripts": {
     "run:example": "cd example/ && yarn install && yarn start"
   },
-  "version": "1.0.4"
+  "version": "1.0.5"
 }

@@ -435,9 +435,7 @@ class FloatingAction extends Component {
         accessibilityLabel="Floating Action Button"
       >
         <Pressable
-          {...getRippleProps(mainButtonColor)}
           style={[styles.button, sizeStyle]}
-          activeOpacity={0.85}
           onPress={this.animateButton}
         >
           <Animated.View

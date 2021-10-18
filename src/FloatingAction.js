@@ -8,7 +8,8 @@ import {
   TouchableOpacity,
   LayoutAnimation,
   Platform,
-  Keyboard
+  Keyboard,
+Pressable
 } from 'react-native'
 import FloatingActionItem from "./FloatingActionItem";
 import AddIcon from "./AddIcon";

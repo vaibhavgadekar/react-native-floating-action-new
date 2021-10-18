@@ -1,10 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-<<<<<<< HEAD
 import { StyleSheet, Text, Image, View, Animated, Pressable } from "react-native";
-=======
-import { StyleSheet, Text, Image, View, Animated } from "react-native";
->>>>>>> 00cca9b2d7dd4c555faec86f3d25f5df4448d512
 
 import { getTouchableComponent } from "./utils/touchable";
 
@@ -187,11 +183,7 @@ class FloatingActionItem extends Component {
     }
 
     return (
-<<<<<<< HEAD
       <Pressable
-=======
-      <Touchable
->>>>>>> 00cca9b2d7dd4c555faec86f3d25f5df4448d512
         activeOpacity={0.4}
         style={styles.container}
         onPress={this.handleOnPress}
@@ -210,11 +202,7 @@ class FloatingActionItem extends Component {
         >
           {components}
         </Animated.View>
-<<<<<<< HEAD
       </Pressable>
-=======
-      </Touchable>
->>>>>>> 00cca9b2d7dd4c555faec86f3d25f5df4448d512
     );
   }
 }
